@@ -41,7 +41,7 @@ Feature: Managing Leads
       | Alex       |   Jones  | xyz@gmail.com |  MRF    |
         | Alex       |   Jones  | xyz@gmail.com |  MRF    |
       
-      @EditLead
+@EditLead
   Scenario Outline: Creation of a Lead
     When I go to create lead page
     And enter and submit lead details
@@ -55,6 +55,7 @@ Feature: Managing Leads
       | FirstName  | LastName | Email         | Company |
       | Alex       |   Jones  | xyz@gmail.com |  MRF    |
       | Alex       |   Jones  | xyz@gmail.com |  MRF    |
+      | John       |   Doe    | xyz@gmail.com |  MRF    |
 
 
    
