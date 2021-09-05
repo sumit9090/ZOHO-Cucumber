@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Test runner">
+
+ <listeners>
+ <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+   
+      
+       <listener class-name="zoho.managers.CustomListeners"/>
+  </listeners>
+<test name="Cucumber Runner">
+    <packages>
+        <package name="zoho.runner.*"/>
+    </packages>
+</test> 
+</suite>
