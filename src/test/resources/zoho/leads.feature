@@ -40,6 +40,7 @@ Feature: Managing Leads
       | Alex       |   Jones  | xyz@gmail.com |  MRF    |
       | Alex       |   Jones  | xyz@gmail.com |  MRF    |
         | Alex       |   Jones  | xyz@gmail.com |  MRF    |
+        | Alex       |   Jones  | xyz@gmail.com |  MRF    |
       
 @EditLead
   Scenario Outline: Creation of a Lead
