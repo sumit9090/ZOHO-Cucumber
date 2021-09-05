@@ -39,6 +39,7 @@ Feature: Managing Leads
       | FirstName  | LastName | Email         | Company |
       | Alex       |   Jones  | xyz@gmail.com |  MRF    |
       | Alex       |   Jones  | xyz@gmail.com |  MRF    |
+        | Alex       |   Jones  | xyz@gmail.com |  MRF    |
    
       
        
